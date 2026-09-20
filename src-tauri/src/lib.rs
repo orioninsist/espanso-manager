@@ -219,7 +219,7 @@ fn git_save() -> Result<String, String> {
     if !staged.success() {
         git_output(
             &repo,
-            &["commit", "-m", "Update Espanso snippets", "--", &rel],
+            &["commit", "--only", "-m", "Update Espanso snippets", "--", &rel],
         )?;
     }
 
