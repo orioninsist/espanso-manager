@@ -4,9 +4,6 @@
   "version": "0.1.0",
   "identifier": "io.github.orioninsist.espanso-manager",
   "build": {
-    "beforeDevCommand": "npm run dev",
-    "beforeBuildCommand": "npm run build",
-    "devUrl": "http://localhost:1420",
     "frontendDist": "../dist"
   },
   "app": {
